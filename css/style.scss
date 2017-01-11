@@ -3,6 +3,42 @@ html, body {
   margin: 0;
 }
 
+@import "partials/fonts";
+
+.header-banner {
+  background-image: url("../images/blur-1853305_1920.jpg");
+  background-position: center;
+  height: 50%;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+#navigation-bar {
+  background-color: white;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 1.3em;
+  font-weight: 10px;
+
+  li a {
+    color: black;
+  }
+}
+
+.nav>li>a:hover{
+ background-color: beige;
+  color: black;
+}
+
+.type-writer {
+font-size: 3em;
+  color: white;
+  text-align: center;
+  margin-top: 15%;
+  font-family: 'Prata', serif;
+
+}
 
 
 
@@ -10,13 +46,38 @@ html, body {
 
 
 
+/*--------------------- @ Media Queries----------------*/
+@media screen and (max-width: 760px ) {
 
+  .header-banner {
+    background-position: center;
+    height: 20%;
+  }
+
+}
+
+
+@media screen and (max-width: 480px ) {
+
+  .header-banner {
+    background-position: center;
+    height: 40%;
+  }
+
+}
+
+
+
+
+/*--------------------------Sticky Footer--------------------*/
 .wrapper {
   min-height: 100%;
+
   /* Equal to height of footer */
   /* But also accounting for potential margin-bottom of last child */
   margin-bottom: -50px;
 }
+
 .footer,
 .push {
   height: 50px;

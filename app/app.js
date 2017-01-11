@@ -31,7 +31,7 @@ $(document).ready(function () {
         .tiDelete(10)
         .tiType('<strong style="color:white ;">Welcome  !</strong>');
 
-    $('.first-banner').html($type);
+    // $('.first-banner').html($type);
 
 
 

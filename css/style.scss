@@ -5,34 +5,81 @@ html, body {
 
 @import "partials/fonts";
 
+#about-title {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 3em;
+}
+
+.projects {
+  padding: 0;
+}
+
 .header-banner {
   background-image: url("../images/blur-1853305_1920.jpg");
   background-position: center;
-  height: 50%;
+  height: 60%;
+  margin-top: 15px;
 }
+
+#intro-text {
+  text-align: center;
+  font-family: 'Pavanam', sans-serif;
+  font-size: 1.5em;
+}
+
+#intro-picture .img-responsive {
+  max-width: calc(100%);
+  filter: grayscale(100%);
+  text-align: center;
+}
+
+.projects .img-responsive {
+  width: 100%;
+  height: 30%;
+}
+
+.projects img:hover {
+opacity: 0.3;
+  display: block;
+  background: #ff8d66;
+  content: 'dsds';
+  display: block;
+
+
+}
+
+//.first-project{
+//  background-image: url("../images/nintendoapp.png");
+//  background-position: center;
+//  height: 100%;
+//  width: 100%;
+//}
 
 .jumbotron {
   margin-bottom: 0;
 }
 
 #navigation-bar {
-  background-color: white;
+  background-color: rgba(9, 0, 0, 0.5);
   font-family: 'Just Another Hand', cursive;
   font-size: 1.3em;
   font-weight: 10px;
 
   li a {
-    color: black;
+    color: white;
   }
 }
 
-.nav>li>a:hover{
- background-color: beige;
+.nav > li > a:hover {
+  background-color: beige;
   color: black;
 }
 
 .type-writer {
-font-size: 3em;
+  font-size: 3em;
   color: white;
   text-align: center;
   margin-top: 15%;
@@ -40,14 +87,21 @@ font-size: 3em;
 
 }
 
+#second-banner {
+  background-color: rgba(9, 0, 37, 0.2);
+  padding-bottom: 100px;
+}
 
-
-
-
-
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
 
 /*--------------------- @ Media Queries----------------*/
-@media screen and (max-width: 760px ) {
+@media screen and (max-width: 760px) {
 
   .header-banner {
     background-position: center;
@@ -56,18 +110,14 @@ font-size: 3em;
 
 }
 
-
-@media screen and (max-width: 480px ) {
+@media screen and (max-width: 480px) {
 
   .header-banner {
     background-position: center;
-    height: 40%;
+    height: 30%;
   }
 
 }
-
-
-
 
 /*--------------------------Sticky Footer--------------------*/
 .wrapper {

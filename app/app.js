@@ -52,6 +52,14 @@ $(document).ready(function () {
     });
 
 
+    $("#intro-text").hover(function () {
+
+        $("#intro-text" ).append( $(".timeline" ));
+
+    })
+
+
+
 });
 
 

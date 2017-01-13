@@ -32,6 +32,10 @@ html, body {
   //margin-top: 100px;
 }
 
+.carousel-indicators li{
+  background-color: #1b6d85;
+}
+
 #about-title {
   text-align: center;
   //font-family: 'Just Another Hand', cursive;
@@ -177,7 +181,7 @@ hr {
   padding-top: 10%;
   padding-bottom: 10%;
   //background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../images/code-1839406_1920.jpg");
-  background-position: center;
+  //background-position: center;
 }
 
 /*--------------------- @ Media Queries----------------*/

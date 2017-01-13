@@ -33,7 +33,25 @@ $(document).ready(function () {
 
     // $('.first-banner').html($type);
 
+    $("#about-button").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#about-banner").offset().top
+        }, 1500);
+    });
+
+    $("#portfolio-button").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#portfolio-banner").offset().top
+        }, 1500);
+    });
+
+    $("#contact-button").click(function (){
+        $('html, body').animate({
+            scrollTop: $(".contact-logo").offset().top
+        }, 1500);
+    });
 
 
 });
+
 

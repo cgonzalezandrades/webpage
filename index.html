@@ -24,18 +24,27 @@
         <div class="container">
 
             <div class="row">
-                <div id="navigation">
-                    <sdiv col-xs-4 col-xs-3>
-                        <h1><a href="#">Home</a></h1>
-                    </sdiv>
-                    <sdiv col-xs-4>
-                        <a href="#">About</a>
-                    </sdiv>
-                    <sdiv col-xs-4>
-                        <a href="#">Contact</a>
-                    </sdiv>
+                <div class="row">
+                    <div class="navigation">
+                        <sdiv class="col-xs-12">
+                            <h1><a href="#">Home</a></h1>
+                        </sdiv>
+                    </div>
                 </div>
 
+                <div class="navigation">
+                    <div class="row">
+                        <sdiv class="col-sm-4">
+                            <a href="#" id="about-button">About</a>
+                        </sdiv>
+                        <sdiv class="col-sm-4">
+                            <a href="#" id="portfolio-button">Portfolio</a>
+                        </sdiv>
+                        <sdiv class="col-sm-4">
+                            <a href="#" id="contact-button">Contact</a>
+                        </sdiv>
+                    </div>
+                </div>
             </div>
 
 
@@ -47,7 +56,7 @@
     <!--end-->
 
     <!--Begin second Banner-->
-    <div id="second-banner">
+    <div id="about-banner">
         <div class="container ">
             <div class="row">
 
@@ -97,78 +106,86 @@
 
     <div id="portfolio-banner">
         <div class="container">
+
             <div class="row">
                 <div class="col-sm-12 portfolio-title">
                     <h1><span style="color: #0065ba;">P</span>ortfolio</h1>
-
                 </div>
-
             </div>
+
 
             <div class="row">
 
-
-                <div class="col-sm-4  projects">
-
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-xs-12 ">
-
-                                <div class="col-sm-5 col-xs-4">
-                                    <a href="https://gentle-woodland-23068.herokuapp.com/" target="_blank"><img
-                                            src="images/nintendoapp.png" class="img-responsive"></a>
-
-                                </div>
-
-                                <div class="col-sm-7 col-xs-7">
-                                    <h2><a>Hangsman gamsssssss</a></h2>
-                                    thadnaskjdnsakjndkjsandkjasndkasndksankdn
-
-                                </div>
-
-                            </div>
-
-
-                        </div>
+                <div class=" col-md-offset-1 col-md-3  projects">
+                    <a href="https://mighty-castle-87706.herokuapp.com/" target="_blank"><img
+                            src="images/gifapp.png" style="height: 240; width: 1279 "
+                            class="img-responsive img-rounded"></a>
+                    <div class="project-sbheader">
+                        <h2>Pokemon Gif Application</h2>
                     </div>
-                </div>
-
-
-                <div class="col-xs-4 projects" id="pokegif-app">
-                    <a href="https://mighty-castle-87706.herokuapp.com/" target="_blank"><img src="images/gifapp.png"
-                                                                                              class="img-responsive"></a>
-
-
-                </div>
-                <!--<div class="clearfix"></div>-->
-
-                <div class="col-xs-4 projects" id="burger-app">
-                    <a href="https://aqueous-stream-52123.herokuapp.com/" target="_blank"><img
-                            src="images/burgerApp.png"
-                            class="img-responsive"></a>
-
-                </div>
-
-                <div class="col-md-6">
-
 
                 </div>
 
 
+                <div class=" col-md-offset-1 col-md-3 projects">
+                    <a href="https://mighty-castle-87706.herokuapp.com/" target="_blank"><img
+                            src="images/burgerApp.png" style="height: 240; width: 1279 "
+                            class="img-responsive img-rounded"></a>
+                    <div class="project-sbheader">
+                        <h2>Sequelize Burger App</h2>
+                    </div>
+
+                </div>
+
+                <div class=" col-md-offset-1 col-md-3 projects">
+                    <a href="https://mighty-castle-87706.herokuapp.com/" target="_blank"><img
+                            src="images/nintendoapp.png" style="height: 240 ; width: 1279"
+                            class="img-responsive img-rounded"></a>
+                    <div class="project-sbheader">
+                        <h2>Nintendo Hangsman Game</h2>
+                    </div>
+
+                </div>
             </div>
+
         </div>
-
     </div>
-    <hr>
+    <!--<hr>-->
 
 
-    <div class="push"></div>
+    <!--<div class="push"></div>-->
 </div>
 
 
-<footer class="footer">
+<footer class="footer ">
     <div class="jumbotron">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 contact-logo">
+                    <!--<div class="col-sm-4 logo">-->
+                    <a href="https://www.linkedin.com/in/carlos-gonzalez-b6ab35a6" target="_blank"><img
+                            src="images/linkedin.svg_.png" class="img-responsive"></a>
+
+                    <!--</div>-->
+                    <!--<div class="col-md-4 logo">-->
+                    <a href="https://github.com/cgonzalezandrades" target="_blank"><img src="images/github.png"
+                                                                                        class="img-responsive"></a>
+
+                    <!--</div>-->
+                    <!--<div class="col-md-4 logo">-->
+                    <a href="https://www.facebook.com/profile.php?id=638067563&ref=bookmarks"><img
+                            src="images/facebook.png" class="img-responsive"></a>
+
+                    <!--</div>-->
+                </div>
+            </div>
+
+
+        </div>
+        <!--<div class="row">-->
+        <h5 id="author-section">Created by Carlos powered by HTML, CSS, SASS and JS</h5>
+        <!--</div>-->
 
 
     </div>

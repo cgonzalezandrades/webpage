@@ -12,27 +12,37 @@ html, body {
   .img-responsive {
     max-width: calc(30% / 4);
     display: inline-block;
+
   }
 
-
-
-  .logo {
-    padding: 0;
-    //width: auto;
-  }
 }
 
-.timeline{
+.arrow-logo {
+  text-align: right;
+}
+
+#up-arrow {
+  max-width: calc(80% / 10);
+  display: inline-block;
+  text-align: center;
+}
+
+.logo {
+  padding: 0;
+  //width: auto;
+}
+
+.timeline {
   border-left: 2px black solid;
 }
 
 #author-section {
-  margin-left: 20px;
-  color: rgba(229, 155, 33, 0.3);
+  //margin-left: px;
+  //color: rgba(229, 155, 33, 0.3);
   //margin-top: 100px;
 }
 
-.carousel-indicators li{
+.carousel-indicators li {
   background-color: #0065ba;
   border-color: transparent;
 }
@@ -52,28 +62,28 @@ hr {
 }
 
 .jumbotron {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/abstract-1779544_1920.png");
+  //background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/abstract-1779544_1920.png");
   padding-top: 5%;
   padding-bottom: 10px;
   margin-bottom: 0;
 
 }
 
-#contact-card{
+#contact-card {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   color: white;
   border-radius: 10px;
 }
 
-#contact-card-info{
- padding: 5px;
+#contact-card-info {
+  padding: 5px;
 
 }
 
 #header-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 10)), url("../images/apple-1868510_1920.jpg");
   background-position: center;
-  height: 100%;
+  height: 80%;
   margin-top: -20px;
   background-attachment: fixed;
 
@@ -88,26 +98,21 @@ hr {
   //float: left;
   //color: white;
 
-  h4{
+  h4 {
     line-height: 150%;
     text-indent: 30px;
   }
 
-
-
-
 }
 
-.first-letter{
+.first-letter {
   font-size: 4em;
   text-indent: 20px;
 }
 
-.about-intros{
+.about-intros {
   margin-top: 20px;
 }
-
-
 
 .projects {
   border-style: solid;
@@ -145,25 +150,27 @@ hr {
   background-color: white;
   padding-top: 5%;
   //padding-bottom: 5%;
-  margin-bottom: 20%;
+  //margin-bottom: 20%;
+
+  padding-bottom: 10%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("../images/computer-1245714_1920.jpg");
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .portfolio-title {
   text-align: center;
   padding-bottom: 5%;
   font-family: 'Prata', serif;
+  color: white;
 }
 
 .navigation {
   margin-top: 15%;
   text-align: center;
-
   a {
-    margin-left: 100px;
-    margin-right: 100px;
     text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     color: white;
   }
 }
@@ -187,63 +194,35 @@ hr {
 
 /*--------------------- @ Media Queries----------------*/
 
-@media only screen and (max-width: 980px) {
+@media (max-width: 980px) and (min-width: 760px) {
   #header-banner {
     background-position: center;
-    height: 70%;
+    height: 30%;
   }
 }
 
-@media only screen and (max-width: 760px) {
-
-  #header-banner {
-    background-position: center;
-    height: 60%;
-  }
-
-  #navigation {
-    //margin-top: 15%;
-    //text-align: center;
-
-    a {
-      //margin-left: 100px;
-      //margin-right: 100px;
-      //text-decoration: none;
-      //font-family: 'Quicksand', sans-serif;
-      font-size: 2em;
-      //color: white;
-    }
-  }
-
-  .type-writer {
-    font-size: 2em;
-  }
-
-}
-
-@media screen and (max-width: 480px) {
-
-  #header-banner {
-    background-position: center;
-    height: 10%;
-
-  }
-
-  #navigation {
-    //margin-top: 15%;
-    //text-align: center;
-
-    a {
-      //margin-left: 100px;
-      //margin-right: 100px;
-      //text-decoration: none;
-      //font-family: 'Quicksand', sans-serif;
-      font-size: 1em;
-      //color: white;
-    }
-  }
-
-}
+//@media (max-width: 760px) and (min-width: 480px) {
+//
+//  #header-banner {
+//    //background-position: center;
+//    height: 50%;
+//  }
+//
+//  //.type-writer {
+//  //  font-size: 2em;
+//  //}
+//
+//}
+//
+//@media (max-width: 480px) {
+//
+//  #header-banner {
+//    background-position: center;
+//    height: 20%;
+//
+//  }
+//
+//}
 
 /*--------------------------Sticky Footer--------------------*/
 .wrapper {

@@ -52,11 +52,11 @@ $(document).ready(function () {
     });
 
 
-    $("#intro-text").hover(function () {
-
-        $("#intro-text" ).append( $(".timeline" ));
-
-    })
+    $("#up").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#header-banner").offset().top
+        }, 1500);
+    });
 
 
 

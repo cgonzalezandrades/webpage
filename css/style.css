@@ -32,7 +32,7 @@ html, body { height: 100%; margin: 0; }
 
 hr { border-style: inset; border-width: 1px; }
 
-#header-banner { background: linear-gradient(rgba(0, 0, 0, 0.7), black), url("../images/apple-1868510_1920.jpg"); background-position: center; background-repeat: no-repeat; height: 80%; margin-top: -20px; background-attachment: fixed; }
+#header-banner { background: linear-gradient(rgba(0, 0, 0, 0.3), black), url("../images/apple-1868510_1920.jpg"); background-position: center; background-repeat: no-repeat; height: 80%; margin-top: -20px; background-attachment: fixed; }
 
 .intro-text { text-align: center; font-family: 'Quicksand', sans-serif; font-size: 1.5em; }
 .intro-text h4 { line-height: 150%; text-indent: 30px; }

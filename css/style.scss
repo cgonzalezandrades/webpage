@@ -5,6 +5,33 @@ html, body {
 
 @import "partials/fonts";
 
+#about-banner {
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.about-intros {
+  margin-top: 20px;
+}
+
+#author-section {
+  //margin-left: px;
+  //color: rgba(229, 155, 33, 0.3);
+  //margin-top: 100px;
+}
+
+#about-title {
+  text-align: center;
+  font-family: 'Prata', serif;
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+.arrow-logo {
+  text-align: right;
+}
+
 .contact-logo {
   text-align: center;
   margin-bottom: 50px;
@@ -17,56 +44,9 @@ html, body {
 
 }
 
-.arrow-logo {
-  text-align: right;
-}
-
-#up-arrow {
-  max-width: calc(80% / 10);
-  display: inline-block;
-  text-align: center;
-}
-
-.logo {
-  padding: 0;
-  //width: auto;
-}
-
-.timeline {
-  border-left: 2px black solid;
-}
-
-#author-section {
-  //margin-left: px;
-  //color: rgba(229, 155, 33, 0.3);
-  //margin-top: 100px;
-}
-
 .carousel-indicators li {
-  background-color: #0065ba;
+  background-color: #c53f56;
   border-color: transparent;
-}
-
-#about-title {
-  text-align: center;
-  //font-family: 'Just Another Hand', cursive;
-  font-family: 'Prata', serif;
-  font-size: 3em;
-  //color: white;
-  margin-bottom: 50px;
-}
-
-hr {
-  border-style: inset;
-  border-width: 1px;
-}
-
-.jumbotron {
-  //background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/abstract-1779544_1920.png");
-  padding-top: 5%;
-  padding-bottom: 10px;
-  margin-bottom: 0;
-
 }
 
 #contact-card {
@@ -80,9 +60,20 @@ hr {
 
 }
 
+.first-letter {
+  font-size: 4em;
+  text-indent: 20px;
+}
+
+hr {
+  border-style: inset;
+  border-width: 1px;
+}
+
 #header-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 10)), url("../images/apple-1868510_1920.jpg");
   background-position: center;
+  background-repeat: no-repeat;
   height: 80%;
   margin-top: -20px;
   background-attachment: fixed;
@@ -91,12 +82,8 @@ hr {
 
 .intro-text {
   text-align: center;
-  //font-family: 'Pavanam', sans-serif;
   font-family: 'Quicksand', sans-serif;
   font-size: 1.5em;
-
-  //float: left;
-  //color: white;
 
   h4 {
     line-height: 150%;
@@ -105,13 +92,27 @@ hr {
 
 }
 
-.first-letter {
-  font-size: 4em;
-  text-indent: 20px;
+.jumbotron {
+  padding-top: 5%;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+
 }
 
-.about-intros {
-  margin-top: 20px;
+.logo {
+  padding: 0;
+  //width: auto;
+}
+
+
+.navigation {
+  margin-top: 15%;
+  text-align: center;
+  a {
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+  }
 }
 
 .projects {
@@ -165,14 +166,10 @@ hr {
   color: white;
 }
 
-.navigation {
-  margin-top: 15%;
-  text-align: center;
-  a {
-    text-decoration: none;
-    font-size: 2em;
-    color: white;
-  }
+
+
+.timeline {
+  border-left: 2px black solid;
 }
 
 .type-writer {
@@ -184,13 +181,12 @@ hr {
 
 }
 
-#about-banner {
-  background-color: white;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  //background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../images/code-1839406_1920.jpg");
-  //background-position: center;
+#up-arrow {
+  max-width: calc(80% / 10);
+  display: inline-block;
+  text-align: center;
 }
+
 
 /*--------------------- @ Media Queries----------------*/
 
@@ -201,28 +197,6 @@ hr {
   }
 }
 
-//@media (max-width: 760px) and (min-width: 480px) {
-//
-//  #header-banner {
-//    //background-position: center;
-//    height: 50%;
-//  }
-//
-//  //.type-writer {
-//  //  font-size: 2em;
-//  //}
-//
-//}
-//
-//@media (max-width: 480px) {
-//
-//  #header-banner {
-//    background-position: center;
-//    height: 20%;
-//
-//  }
-//
-//}
 
 /*--------------------------Sticky Footer--------------------*/
 .wrapper {

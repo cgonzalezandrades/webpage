@@ -28,7 +28,7 @@ html, body { height: 100%; margin: 0; }
 
 #contact-card-info { padding: 5px; }
 
-.first-letter { font-size: 4em; text-indent: 20px; }
+.first-letter { font-size: 2em; text-indent: 20px; }
 
 hr { border-style: inset; border-width: 1px; }
 
